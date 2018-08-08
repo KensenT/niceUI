@@ -24,7 +24,7 @@ niceUI has a good asset that can be used in projects, like, for real.
   s.homepage         = 'https://github.com/KensenT/niceUI'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Kensen' => 'kensen.tjoa@gmail.com' }
+  s.author           = { 'KensenT' => 'kensen.tjoa@gmail.com' }
   s.source           = { :git => 'https://github.com/Kensen/niceUI.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
