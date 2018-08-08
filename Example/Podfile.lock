@@ -1,0 +1,16 @@
+PODS:
+  - niceUI (0.1.0)
+
+DEPENDENCIES:
+  - niceUI (from `../`)
+
+EXTERNAL SOURCES:
+  niceUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  niceUI: 36a74e5e0eda4b60bab1be0a041859e58aa4effe
+
+PODFILE CHECKSUM: e125e599edb169b82cb059d3af4106d69ef2a7d9
+
+COCOAPODS: 1.5.3

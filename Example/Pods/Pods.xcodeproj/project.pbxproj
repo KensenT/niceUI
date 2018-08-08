@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		095C19ADEAF51440794574C91ED4DD9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		236A64B3E41EB952338D9AB6F7C19918 /* Pods-niceUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFA5FFFFA835592C0C6C6312293C36D /* Pods-niceUI_Example-dummy.m */; };
+		23F9F576D3913E3C639D9154A7C2616D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		4CE20B10A866C6A2197ABFBCCD891D15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6D5119ABE15807712B6E7024A86CB5D6 /* Pods-niceUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C69B4FF7A532B49C25A1F74BDAB089 /* Pods-niceUI_Tests-dummy.m */; };
+		76CD7614295D2A624A565C3DE4377626 /* niceUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8202DACFC4AEED9381D84888064CEEEF /* niceUI-dummy.m */; };
+		C231F6DEA60F6419B198995F5F1F2DD5 /* niceUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E910D56364F05CF91311E09438E165C4 /* niceUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB1052126C5E99C1E2A86A7ED7C03C7C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21216A862798777D9BF038E3FE7B7AA /* ReplaceMe.swift */; };
+		D464A3E671FCBB48B9CB7345F11A17AC /* Pods-niceUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F435E4659FBC28F2FB425BC487861A /* Pods-niceUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F10DE46D39D46BB5388D65A446CC738A /* Pods-niceUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C7900E381853F55EF041D8ECE4F5BBF /* Pods-niceUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		224E9D41F36CFD8CC431AA383ABA4864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4CDA0C54DDF27E5BBF7E06DE2C6228D;
+			remoteInfo = niceUI;
+		};
+		57840DE3888BBD01FDBA1B2326596C85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9203C133CB4D60AB9EA4D1E2005C31C;
+			remoteInfo = "Pods-niceUI_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B402FEACABC1D5EF1CF608BD89CD98F /* niceUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = niceUI.framework; path = niceUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FBB5C50C739BDC26F495A51F9410888 /* Pods-niceUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-niceUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		20828F5A462A013EA8E71F6EAF757DAC /* Pods-niceUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-niceUI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		237930CAA076D4341922E95C654B17B0 /* Pods-niceUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-niceUI_Example-frameworks.sh"; sourceTree = "<group>"; };
+		412E8DC6CA7A619F205D8B7BECA4AE38 /* Pods-niceUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-niceUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		43BE2BAF47A61FC21C5447ECAD88445F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		496FB356E036B20A039A3F94E63CE24B /* Pods-niceUI_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-niceUI_Tests-resources.sh"; sourceTree = "<group>"; };
+		4C7900E381853F55EF041D8ECE4F5BBF /* Pods-niceUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-niceUI_Example-umbrella.h"; sourceTree = "<group>"; };
+		4F9F78FC094E4BD985F902D8AD053268 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C69B4FF7A532B49C25A1F74BDAB089 /* Pods-niceUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-niceUI_Tests-dummy.m"; sourceTree = "<group>"; };
+		54EAE7174FB68EA91D44225B33568BE8 /* Pods-niceUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-niceUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5719F2E76D2E5E875A6125FCF68E7CF8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		718240761D688D893814855AF3F892E6 /* Pods-niceUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-niceUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		71890BBD82D558E3B756D75AF00A7096 /* Pods-niceUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-niceUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		744B7A05A0F925217BD3ECF1D2176BCA /* niceUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = niceUI.xcconfig; sourceTree = "<group>"; };
+		7461940EF68688FB4FD73B7838EB3FC1 /* Pods_niceUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_niceUI_Tests.framework; path = "Pods-niceUI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DAB50839BEEBE3D9F0110241150607 /* Pods-niceUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-niceUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DDC1A9CEA1DA67E1E2346F19EDE2A84 /* Pods_niceUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_niceUI_Example.framework; path = "Pods-niceUI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8202DACFC4AEED9381D84888064CEEEF /* niceUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "niceUI-dummy.m"; sourceTree = "<group>"; };
+		85A6E4557D353184E2D895650664DD7F /* Pods-niceUI_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-niceUI_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBC2D7F11C06921A9297EAC05613009D /* Pods-niceUI_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-niceUI_Example-resources.sh"; sourceTree = "<group>"; };
+		BCC9343B47A1ACC8BDBD3E4C5C690D12 /* niceUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = niceUI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C561E900AC4477EC901BCB43A35220B5 /* Pods-niceUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-niceUI_Example.modulemap"; sourceTree = "<group>"; };
+		C8F435E4659FBC28F2FB425BC487861A /* Pods-niceUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-niceUI_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D21216A862798777D9BF038E3FE7B7AA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = niceUI/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		DABC1329BB50CE9A53D2603C64A68F23 /* Pods-niceUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-niceUI_Tests.modulemap"; sourceTree = "<group>"; };
+		DEFA5FFFFA835592C0C6C6312293C36D /* Pods-niceUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-niceUI_Example-dummy.m"; sourceTree = "<group>"; };
+		DF739EDAFE0F1B9446F870C2A436ED31 /* niceUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = niceUI.modulemap; sourceTree = "<group>"; };
+		E14693D5550573003635AEF0392EB6AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E656A1F8B0A31F5DE39A473EF9B53A0C /* niceUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "niceUI-prefix.pch"; sourceTree = "<group>"; };
+		E8EFA88FA8226FD4E046B143AC2B8164 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E910D56364F05CF91311E09438E165C4 /* niceUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "niceUI-umbrella.h"; sourceTree = "<group>"; };
+		F71E2B9B1B202DD5688C500B499264B3 /* Pods-niceUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-niceUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6922A37B0A4E5FBAD25501373E611397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095C19ADEAF51440794574C91ED4DD9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768DCC80EC2242188A01F14F90E56D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F9F576D3913E3C639D9154A7C2616D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7825BA9C8672501609375F8B4560B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE20B10A866C6A2197ABFBCCD891D15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CE07F198338833068BE1C8FBC34EBDC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE6B55C647551D43A94CA38846F8E994 /* niceUI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1DD7F8E55BAFAAA6AD3681D71B8F0219 /* Pods-niceUI_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4F9F78FC094E4BD985F902D8AD053268 /* Info.plist */,
+				C561E900AC4477EC901BCB43A35220B5 /* Pods-niceUI_Example.modulemap */,
+				0FBB5C50C739BDC26F495A51F9410888 /* Pods-niceUI_Example-acknowledgements.markdown */,
+				71890BBD82D558E3B756D75AF00A7096 /* Pods-niceUI_Example-acknowledgements.plist */,
+				DEFA5FFFFA835592C0C6C6312293C36D /* Pods-niceUI_Example-dummy.m */,
+				237930CAA076D4341922E95C654B17B0 /* Pods-niceUI_Example-frameworks.sh */,
+				BBC2D7F11C06921A9297EAC05613009D /* Pods-niceUI_Example-resources.sh */,
+				4C7900E381853F55EF041D8ECE4F5BBF /* Pods-niceUI_Example-umbrella.h */,
+				412E8DC6CA7A619F205D8B7BECA4AE38 /* Pods-niceUI_Example.debug.xcconfig */,
+				20828F5A462A013EA8E71F6EAF757DAC /* Pods-niceUI_Example.release.xcconfig */,
+			);
+			name = "Pods-niceUI_Example";
+			path = "Target Support Files/Pods-niceUI_Example";
+			sourceTree = "<group>";
+		};
+		4EF462211444B9532AC03B1A27E1B261 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				43BE2BAF47A61FC21C5447ECAD88445F /* LICENSE */,
+				BCC9343B47A1ACC8BDBD3E4C5C690D12 /* niceUI.podspec */,
+				5719F2E76D2E5E875A6125FCF68E7CF8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0CE07F198338833068BE1C8FBC34EBDC /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E03D092212502F7F8A15972AB2A97512 /* Products */,
+				8D1A9415CE91586736F16BA061A09867 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D1A9415CE91586736F16BA061A09867 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DD7F8E55BAFAAA6AD3681D71B8F0219 /* Pods-niceUI_Example */,
+				8EEDADA9A04C6CA57A6F2F213A932FC4 /* Pods-niceUI_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8EEDADA9A04C6CA57A6F2F213A932FC4 /* Pods-niceUI_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E8EFA88FA8226FD4E046B143AC2B8164 /* Info.plist */,
+				DABC1329BB50CE9A53D2603C64A68F23 /* Pods-niceUI_Tests.modulemap */,
+				76DAB50839BEEBE3D9F0110241150607 /* Pods-niceUI_Tests-acknowledgements.markdown */,
+				718240761D688D893814855AF3F892E6 /* Pods-niceUI_Tests-acknowledgements.plist */,
+				54C69B4FF7A532B49C25A1F74BDAB089 /* Pods-niceUI_Tests-dummy.m */,
+				85A6E4557D353184E2D895650664DD7F /* Pods-niceUI_Tests-frameworks.sh */,
+				496FB356E036B20A039A3F94E63CE24B /* Pods-niceUI_Tests-resources.sh */,
+				C8F435E4659FBC28F2FB425BC487861A /* Pods-niceUI_Tests-umbrella.h */,
+				F71E2B9B1B202DD5688C500B499264B3 /* Pods-niceUI_Tests.debug.xcconfig */,
+				54EAE7174FB68EA91D44225B33568BE8 /* Pods-niceUI_Tests.release.xcconfig */,
+			);
+			name = "Pods-niceUI_Tests";
+			path = "Target Support Files/Pods-niceUI_Tests";
+			sourceTree = "<group>";
+		};
+		AE6B55C647551D43A94CA38846F8E994 /* niceUI */ = {
+			isa = PBXGroup;
+			children = (
+				D21216A862798777D9BF038E3FE7B7AA /* ReplaceMe.swift */,
+				4EF462211444B9532AC03B1A27E1B261 /* Pod */,
+				E83206610FE444EA38DD14DCACECA428 /* Support Files */,
+			);
+			name = niceUI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E03D092212502F7F8A15972AB2A97512 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B402FEACABC1D5EF1CF608BD89CD98F /* niceUI.framework */,
+				7DDC1A9CEA1DA67E1E2346F19EDE2A84 /* Pods_niceUI_Example.framework */,
+				7461940EF68688FB4FD73B7838EB3FC1 /* Pods_niceUI_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E83206610FE444EA38DD14DCACECA428 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E14693D5550573003635AEF0392EB6AA /* Info.plist */,
+				DF739EDAFE0F1B9446F870C2A436ED31 /* niceUI.modulemap */,
+				744B7A05A0F925217BD3ECF1D2176BCA /* niceUI.xcconfig */,
+				8202DACFC4AEED9381D84888064CEEEF /* niceUI-dummy.m */,
+				E656A1F8B0A31F5DE39A473EF9B53A0C /* niceUI-prefix.pch */,
+				E910D56364F05CF91311E09438E165C4 /* niceUI-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/niceUI";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C7067447CB855300F18109EFBEFC71F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D464A3E671FCBB48B9CB7345F11A17AC /* Pods-niceUI_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39005489E323F25FA3307EFCE9A5620 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10DE46D39D46BB5388D65A446CC738A /* Pods-niceUI_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4DCB7309F3C6697903374DB090CDAE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C231F6DEA60F6419B198995F5F1F2DD5 /* niceUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		076F964B2C5FD7CB47827C6F211219F4 /* Pods-niceUI_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5109723F903ECD32FFF8EFF1EF82F1A /* Build configuration list for PBXNativeTarget "Pods-niceUI_Tests" */;
+			buildPhases = (
+				06C499450FF045C7629C7E1FBF6CF118 /* Sources */,
+				6922A37B0A4E5FBAD25501373E611397 /* Frameworks */,
+				C7067447CB855300F18109EFBEFC71F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75381D5C640D6CC359C3F8AC9F3D1B22 /* PBXTargetDependency */,
+			);
+			name = "Pods-niceUI_Tests";
+			productName = "Pods-niceUI_Tests";
+			productReference = 7461940EF68688FB4FD73B7838EB3FC1 /* Pods_niceUI_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9203C133CB4D60AB9EA4D1E2005C31C /* Pods-niceUI_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBC9509D5C3021F57AFBDD9F5F5D745D /* Build configuration list for PBXNativeTarget "Pods-niceUI_Example" */;
+			buildPhases = (
+				AF3CB30DFC16B10810CA6551D4B134D7 /* Sources */,
+				768DCC80EC2242188A01F14F90E56D72 /* Frameworks */,
+				E39005489E323F25FA3307EFCE9A5620 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				179E5853CF7EBB476FECAF176295DCEE /* PBXTargetDependency */,
+			);
+			name = "Pods-niceUI_Example";
+			productName = "Pods-niceUI_Example";
+			productReference = 7DDC1A9CEA1DA67E1E2346F19EDE2A84 /* Pods_niceUI_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4CDA0C54DDF27E5BBF7E06DE2C6228D /* niceUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DC7E5CA8E90F862DC31ECEB73FDD4AF /* Build configuration list for PBXNativeTarget "niceUI" */;
+			buildPhases = (
+				5390B4C6188266E56F7C0DE504D50729 /* Sources */,
+				A7825BA9C8672501609375F8B4560B9A /* Frameworks */,
+				FB4DCB7309F3C6697903374DB090CDAE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = niceUI;
+			productName = niceUI;
+			productReference = 0B402FEACABC1D5EF1CF608BD89CD98F /* niceUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E03D092212502F7F8A15972AB2A97512 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4CDA0C54DDF27E5BBF7E06DE2C6228D /* niceUI */,
+				B9203C133CB4D60AB9EA4D1E2005C31C /* Pods-niceUI_Example */,
+				076F964B2C5FD7CB47827C6F211219F4 /* Pods-niceUI_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06C499450FF045C7629C7E1FBF6CF118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5119ABE15807712B6E7024A86CB5D6 /* Pods-niceUI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5390B4C6188266E56F7C0DE504D50729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CD7614295D2A624A565C3DE4377626 /* niceUI-dummy.m in Sources */,
+				CB1052126C5E99C1E2A86A7ED7C03C7C /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF3CB30DFC16B10810CA6551D4B134D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236A64B3E41EB952338D9AB6F7C19918 /* Pods-niceUI_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		179E5853CF7EBB476FECAF176295DCEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = niceUI;
+			target = D4CDA0C54DDF27E5BBF7E06DE2C6228D /* niceUI */;
+			targetProxy = 224E9D41F36CFD8CC431AA383ABA4864 /* PBXContainerItemProxy */;
+		};
+		75381D5C640D6CC359C3F8AC9F3D1B22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-niceUI_Example";
+			target = B9203C133CB4D60AB9EA4D1E2005C31C /* Pods-niceUI_Example */;
+			targetProxy = 57840DE3888BBD01FDBA1B2326596C85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		070F18938A818FE509327BB0C10F6D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F71E2B9B1B202DD5688C500B499264B3 /* Pods-niceUI_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-niceUI_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-niceUI_Tests/Pods-niceUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		11ABB6AAA7E920F806550C7BA1EABC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 744B7A05A0F925217BD3ECF1D2176BCA /* niceUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/niceUI/niceUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/niceUI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/niceUI/niceUI.modulemap";
+				PRODUCT_MODULE_NAME = niceUI;
+				PRODUCT_NAME = niceUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E80B9605816B71DE8A41356D4D2DB86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 412E8DC6CA7A619F205D8B7BECA4AE38 /* Pods-niceUI_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-niceUI_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-niceUI_Example/Pods-niceUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6931973BD682BBEDAD815088C2A32D62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20828F5A462A013EA8E71F6EAF757DAC /* Pods-niceUI_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-niceUI_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-niceUI_Example/Pods-niceUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8AAF4DB1F93171D52CC679F102AEC35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 744B7A05A0F925217BD3ECF1D2176BCA /* niceUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/niceUI/niceUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/niceUI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/niceUI/niceUI.modulemap";
+				PRODUCT_MODULE_NAME = niceUI;
+				PRODUCT_NAME = niceUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DF9EF2B41BCFAD3E3F8B5E6ADADC29FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54EAE7174FB68EA91D44225B33568BE8 /* Pods-niceUI_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-niceUI_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-niceUI_Tests/Pods-niceUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DC7E5CA8E90F862DC31ECEB73FDD4AF /* Build configuration list for PBXNativeTarget "niceUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11ABB6AAA7E920F806550C7BA1EABC17 /* Debug */,
+				8AAF4DB1F93171D52CC679F102AEC35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBC9509D5C3021F57AFBDD9F5F5D745D /* Build configuration list for PBXNativeTarget "Pods-niceUI_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E80B9605816B71DE8A41356D4D2DB86 /* Debug */,
+				6931973BD682BBEDAD815088C2A32D62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5109723F903ECD32FFF8EFF1EF82F1A /* Build configuration list for PBXNativeTarget "Pods-niceUI_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070F18938A818FE509327BB0C10F6D6E /* Debug */,
+				DF9EF2B41BCFAD3E3F8B5E6ADADC29FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
