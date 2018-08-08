@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'niceUI'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of niceUI.'
+  s.summary          = 'niceUI has a good asset that can be used in projects.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+niceUI has a good asset that can be used in projects, like, for real.
                        DESC
 
-  s.homepage         = 'https://github.com/Kensen/niceUI'
+  s.homepage         = 'https://github.com/KensenT/niceUI'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Kensen' => 'kensen.tjoa@gmail.com' }
@@ -37,6 +37,8 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.swift_version = '4.2'
 end
