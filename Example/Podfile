@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'niceUI_Example' do
+  pod 'niceUI', :path => '../'
+
+  target 'niceUI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
