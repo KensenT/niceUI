@@ -14,8 +14,8 @@
 		6D5119ABE15807712B6E7024A86CB5D6 /* Pods-niceUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C69B4FF7A532B49C25A1F74BDAB089 /* Pods-niceUI_Tests-dummy.m */; };
 		76CD7614295D2A624A565C3DE4377626 /* niceUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8202DACFC4AEED9381D84888064CEEEF /* niceUI-dummy.m */; };
 		C231F6DEA60F6419B198995F5F1F2DD5 /* niceUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E910D56364F05CF91311E09438E165C4 /* niceUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB1052126C5E99C1E2A86A7ED7C03C7C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21216A862798777D9BF038E3FE7B7AA /* ReplaceMe.swift */; };
 		D464A3E671FCBB48B9CB7345F11A17AC /* Pods-niceUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F435E4659FBC28F2FB425BC487861A /* Pods-niceUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED300EC7211B02BB00639449 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED300EC3211B02BB00639449 /* CustomColors.swift */; };
 		F10DE46D39D46BB5388D65A446CC738A /* Pods-niceUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C7900E381853F55EF041D8ECE4F5BBF /* Pods-niceUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -37,33 +37,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B402FEACABC1D5EF1CF608BD89CD98F /* niceUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = niceUI.framework; path = niceUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B402FEACABC1D5EF1CF608BD89CD98F /* niceUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = niceUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBB5C50C739BDC26F495A51F9410888 /* Pods-niceUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-niceUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		20828F5A462A013EA8E71F6EAF757DAC /* Pods-niceUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-niceUI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		237930CAA076D4341922E95C654B17B0 /* Pods-niceUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-niceUI_Example-frameworks.sh"; sourceTree = "<group>"; };
 		412E8DC6CA7A619F205D8B7BECA4AE38 /* Pods-niceUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-niceUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		43BE2BAF47A61FC21C5447ECAD88445F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		43BE2BAF47A61FC21C5447ECAD88445F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		496FB356E036B20A039A3F94E63CE24B /* Pods-niceUI_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-niceUI_Tests-resources.sh"; sourceTree = "<group>"; };
 		4C7900E381853F55EF041D8ECE4F5BBF /* Pods-niceUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-niceUI_Example-umbrella.h"; sourceTree = "<group>"; };
 		4F9F78FC094E4BD985F902D8AD053268 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54C69B4FF7A532B49C25A1F74BDAB089 /* Pods-niceUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-niceUI_Tests-dummy.m"; sourceTree = "<group>"; };
 		54EAE7174FB68EA91D44225B33568BE8 /* Pods-niceUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-niceUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5719F2E76D2E5E875A6125FCF68E7CF8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5719F2E76D2E5E875A6125FCF68E7CF8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		718240761D688D893814855AF3F892E6 /* Pods-niceUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-niceUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		71890BBD82D558E3B756D75AF00A7096 /* Pods-niceUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-niceUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		744B7A05A0F925217BD3ECF1D2176BCA /* niceUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = niceUI.xcconfig; sourceTree = "<group>"; };
-		7461940EF68688FB4FD73B7838EB3FC1 /* Pods_niceUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_niceUI_Tests.framework; path = "Pods-niceUI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7461940EF68688FB4FD73B7838EB3FC1 /* Pods_niceUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_niceUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76DAB50839BEEBE3D9F0110241150607 /* Pods-niceUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-niceUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7DDC1A9CEA1DA67E1E2346F19EDE2A84 /* Pods_niceUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_niceUI_Example.framework; path = "Pods-niceUI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DDC1A9CEA1DA67E1E2346F19EDE2A84 /* Pods_niceUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_niceUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8202DACFC4AEED9381D84888064CEEEF /* niceUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "niceUI-dummy.m"; sourceTree = "<group>"; };
 		85A6E4557D353184E2D895650664DD7F /* Pods-niceUI_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-niceUI_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BBC2D7F11C06921A9297EAC05613009D /* Pods-niceUI_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-niceUI_Example-resources.sh"; sourceTree = "<group>"; };
-		BCC9343B47A1ACC8BDBD3E4C5C690D12 /* niceUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = niceUI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCC9343B47A1ACC8BDBD3E4C5C690D12 /* niceUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = niceUI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C561E900AC4477EC901BCB43A35220B5 /* Pods-niceUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-niceUI_Example.modulemap"; sourceTree = "<group>"; };
 		C8F435E4659FBC28F2FB425BC487861A /* Pods-niceUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-niceUI_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D21216A862798777D9BF038E3FE7B7AA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = niceUI/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		DABC1329BB50CE9A53D2603C64A68F23 /* Pods-niceUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-niceUI_Tests.modulemap"; sourceTree = "<group>"; };
 		DEFA5FFFFA835592C0C6C6312293C36D /* Pods-niceUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-niceUI_Example-dummy.m"; sourceTree = "<group>"; };
 		DF739EDAFE0F1B9446F870C2A436ED31 /* niceUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = niceUI.modulemap; sourceTree = "<group>"; };
@@ -71,6 +70,7 @@
 		E656A1F8B0A31F5DE39A473EF9B53A0C /* niceUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "niceUI-prefix.pch"; sourceTree = "<group>"; };
 		E8EFA88FA8226FD4E046B143AC2B8164 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E910D56364F05CF91311E09438E165C4 /* niceUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "niceUI-umbrella.h"; sourceTree = "<group>"; };
+		ED300EC3211B02BB00639449 /* CustomColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
 		F71E2B9B1B202DD5688C500B499264B3 /* Pods-niceUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-niceUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -187,7 +187,7 @@
 		AE6B55C647551D43A94CA38846F8E994 /* niceUI */ = {
 			isa = PBXGroup;
 			children = (
-				D21216A862798777D9BF038E3FE7B7AA /* ReplaceMe.swift */,
+				ED300EC3211B02BB00639449 /* CustomColors.swift */,
 				4EF462211444B9532AC03B1A27E1B261 /* Pod */,
 				E83206610FE444EA38DD14DCACECA428 /* Support Files */,
 			);
@@ -318,6 +318,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					D4CDA0C54DDF27E5BBF7E06DE2C6228D = {
+						LastSwiftMigration = 0940;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -351,8 +356,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED300EC7211B02BB00639449 /* CustomColors.swift in Sources */,
 				76CD7614295D2A624A565C3DE4377626 /* niceUI-dummy.m in Sources */,
-				CB1052126C5E99C1E2A86A7ED7C03C7C /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +424,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 744B7A05A0F925217BD3ECF1D2176BCA /* niceUI.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -521,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 744B7A05A0F925217BD3ECF1D2176BCA /* niceUI.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
