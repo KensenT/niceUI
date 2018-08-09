@@ -187,7 +187,7 @@
 		AE6B55C647551D43A94CA38846F8E994 /* niceUI */ = {
 			isa = PBXGroup;
 			children = (
-				ED300EC3211B02BB00639449 /* CustomColors.swift */,
+				ED300EE7211C0AB600639449 /* Classes */,
 				4EF462211444B9532AC03B1A27E1B261 /* Pod */,
 				E83206610FE444EA38DD14DCACECA428 /* Support Files */,
 			);
@@ -225,6 +225,14 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/niceUI";
+			sourceTree = "<group>";
+		};
+		ED300EE7211C0AB600639449 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ED300EC3211B02BB00639449 /* CustomColors.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -30,7 +30,7 @@ niceUI has a good color template that can be used in projects, like, for real.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'niceUI/Classes/**/*'
+s.source_files = 'niceUI/Classes/*.{h,m}'
   
   # s.resource_bundles = {
   #   'niceUI' => ['niceUI/Assets/*.png']
